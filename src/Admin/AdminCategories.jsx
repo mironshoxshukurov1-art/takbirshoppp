@@ -21,8 +21,8 @@ import {
   GiWineGlass, GiBeerBottle, GiChocolateBar, GiCakeSlice
 } from 'react-icons/gi';
 
-import Modal from './components/Modal';
 import DataTable from './components/DataTable';
+import Modal from './components/Modal';
 
 export default function AdminCategories() {
   const [categories, setCategories] = useState([
